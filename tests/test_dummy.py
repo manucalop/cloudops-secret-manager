@@ -1,12 +1,11 @@
 import unittest
-from cloudops_secretmanager.config import config
 
 
-class TestConfig(unittest.TestCase):
+class TestDummy(unittest.TestCase):
     def setUp(self):
         pass
 
-    def test_config(self):
+    def test_dummy(self):
         self.assertEqual(True, True, "I leave Python!")
 
 
